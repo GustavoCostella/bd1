@@ -12,6 +12,15 @@ alter column nome_col SET NOT NULL||DROP NOT NULL
 Sempre criar um usuario e um banco
 create user ______ password ' ';
 \c nome_banco nome_user*/
+/*  insert into competicao (sigla,datai,dataf,titulo) values ('TIMEA','16/09/18','17/09/18','copa fifa');
+insert into profissional (matricula,dataNasc,nome) values (1711100028,'20/08/1999','Bruno Karling');
+insert into equipe (codigo,nome,matricula) values (101,'Coringao',1711100028);
+insert into jogo (data,codigoLocal,codigoVisi,hora) values ('17/09/2018',101,102,'15:20');
+insert into plantel (matricula,codigo,dataAD,dataDES) values (171100028,101,'05/08/2007','06/09/2018'); */
+/*begin (começa)
+end; (termina)
+rollback; (volta )
+no caso de seleção de valores usar between*/
 
 
 create table competicao(
